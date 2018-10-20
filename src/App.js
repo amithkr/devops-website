@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './devops.png';
 import './App.css';
 
 class App extends Component {
@@ -8,14 +8,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            A website for devops professionals
-          </p>
+          <h1>
+            A website for devops 
+          </h1>
           
         </header>
+        <footer>
+          OPEN SOURCE
+        </footer>
       </div>
-    );
-  }
+    )}
 }
 
 export default App;
